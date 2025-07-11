@@ -4,3 +4,12 @@
 [submodule "CrossChain-Data/lib/forge-std"]
 	path = CrossChain-Data/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "CrossChain-Data/lib/chainlink-evm"]
+	path = CrossChain-Data/lib/chainlink-evm
+	url = https://github.com/smartcontractkit/chainlink-evm
+[submodule "CrossChain-Data/lib/chainlink-ccip"]
+	path = CrossChain-Data/lib/chainlink-ccip
+	url = https://github.com/smartcontractkit/chainlink-ccip
+[submodule "CrossChain-Data/lib/openzeppelin-contracts"]
+	path = CrossChain-Data/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
