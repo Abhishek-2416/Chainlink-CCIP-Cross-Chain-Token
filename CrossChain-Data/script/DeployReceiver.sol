@@ -7,7 +7,10 @@ import {Receiver} from "../src/Receiver.sol";
 contract DeploySender is Script {
     function run() external returns(Receiver){
         address arbRouterAddress = vm.envAddress("ARB_ROUTER_ADDRESS");
+
+        vm.startBroadcast();
         Receiver receiverContractAddress = new Receiver(arbRouterAddress);
+        vm.stopBroadcast();
 
         return receiverContractAddress;
     }
