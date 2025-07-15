@@ -13,3 +13,9 @@
 [submodule "CrossChain-Data/lib/openzeppelin-contracts"]
 	path = CrossChain-Data/lib/openzeppelin-contracts
 	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "CrossChain-Data/lib/chainlink-local"]
+	path = CrossChain-Data/lib/chainlink-local
+	url = https://github.com/smartcontractkit/chainlink-local
+[submodule "CrossChain-Data/lib/chainlink"]
+	path = CrossChain-Data/lib/chainlink
+	url = https://github.com/smartcontractkit/chainlink
