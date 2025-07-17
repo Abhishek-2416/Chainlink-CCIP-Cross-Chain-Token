@@ -5,6 +5,7 @@ import {IRouterClient} from "@chainlink/chainlink-ccip/chains/evm/contracts/inte
 import {OwnerIsCreator} from "chainlink/contracts/src/v0.8/shared/access/OwnerIsCreator.sol";
 import {Client} from "@chainlink/chainlink-ccip/chains/evm/contracts/libraries/Client.sol";
 import {LinkTokenInterface} from "chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol";
+import {IRouter} from "chainlink-ccip/chains/evm/contracts/interfaces/IRouter.sol";
 
 /**
  * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
